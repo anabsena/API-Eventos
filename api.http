@@ -1,0 +1,28 @@
+POST http://localhost:3333/events 
+Host: localhost:3333
+Content-Type: application/json
+
+
+{
+  "title": "novo evento 3", 
+  "details":"null",
+  "maximumAttendees": 1
+}
+
+
+###
+
+
+POST http://localhost:3333/events/fc644ed1-efae-4cca-b6d9-75e56f0877c1/attendees
+Content-Type: application/json
+
+{
+  "name": "Ana Beatriz",
+  "email": "anabsenaf3@gmail.com"
+}
+
+###
+GET http://localhost:3333/events/fc644ed1-efae-4cca-b6d9-75e56f0877c1
+
+###
+GET http://localhost:3333/attendees/4/badge
