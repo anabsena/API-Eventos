@@ -4,7 +4,7 @@ Content-Type: application/json
 
 
 {
-  "title": "novo evento 3", 
+  "title": "1234579", 
   "details":"null",
   "maximumAttendees": 1
 }
@@ -26,3 +26,10 @@ GET http://localhost:3333/events/fc644ed1-efae-4cca-b6d9-75e56f0877c1
 
 ###
 GET http://localhost:3333/attendees/4/badge
+
+###
+GET http://localhost:3333/attendees/5/check-in
+
+###
+
+GET http://localhost:3333/events/fc644ed1-efae-4cca-b6d9-75e56f0877c1/attendees
